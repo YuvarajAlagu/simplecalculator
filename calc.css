@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+#wrapper div, #wrapper h3{
+    display: flex;
+    justify-content: center;
+}
+#wrapper {
+    height: 500px;
+    width : 400px;
+    margin : 200px auto;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding : 30px;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    width : 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border : 1px solid black;
+}
+button{
+    width : 150px;
+    height: 30px;
+    background-color:cyan;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: .1s ease-in;
+}
+#clear{
+    width : 100px;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: rgb(251, 251, 250);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px whitesmoke;
+}
+#result{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+}
